@@ -5,7 +5,7 @@ Splitzer is an Android application designed to simplify the process of splitting
 
 ## Technologies Used
 - **Android Development**
-  - Kotlin
+  - Java
   - Android SDK
   - AndroidX Libraries
   - Material Design Components
