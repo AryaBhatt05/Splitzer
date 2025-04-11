@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "497925413950",
+    "project_id": "splitzer-c4e34",
+    "storage_bucket": "splitzer-c4e34.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497925413950:android:a3e74dd3a52a1e4c1d056f",
+        "android_client_info": {
+          "package_name": "com.example.Splitzer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFFPzAdmW7M-5hXP0dOm_v5WdB0I8qzU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

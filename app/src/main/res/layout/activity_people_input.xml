@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/personCountInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number of people"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/addNamesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Name Fields"
+            android:layout_marginTop="12dp" />
+
+        <LinearLayout
+            android:id="@+id/namesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/proceedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proceed to Assign"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

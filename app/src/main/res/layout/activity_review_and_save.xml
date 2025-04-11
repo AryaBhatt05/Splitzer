@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/addItemButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+ Add Item" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp" />
+    <TextView
+        android:id="@+id/grandTotalText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grand Total: ₹0.00"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="end"
+        android:layout_marginTop="8dp" />
+
+
+    <Button
+        android:id="@+id/saveBillButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next">
+
+    </Button>   <!-- ✅ Change this -->
+
+
+</LinearLayout>
